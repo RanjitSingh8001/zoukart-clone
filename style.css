@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background-color: aliceblue;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    color: #fff;
+    padding-top: 10px;
+    margin-left: 16px;
+    font-weight: 100;
+}
+h5 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    color: rgb(114, 112, 112);
+    padding-top: 10px;
+    margin-left: 16px;
+    font-weight: 100;
+}
+
+#container{
+    height: 100%;
+}
+.nav{
+    padding-bottom: 56px;
+    min-width: 978px;
+    position: relative;
+}
+.nav1{
+    position: fixed;
+    display: flex;
+    will-change: transform;
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    color: white;
+    z-index: 10;
+    flex-direction: row;
+
+}
+.nav1 .nav1-1{
+    height: 100%;
+    min-width: 124px;
+}
+.nav1 .nav1-2 {
+    max-width: 1248px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+}
+.nav1 .nav1-2 .brand{
+    justify-content: flex-end;
+    min-width: 137px;
+    display: flex;
+    height: 56px;
+}
+.brand1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon {
+    display: block;
+}
+.nav1 .searchbar {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    min-width: 304px;
+    width: calc(100% - 540px);
+    margin: 0 auto 0 12px;
+    align-items: center;
+}
+.sbform {
+    display: inline block;
+    box-shadow: 0 2px 4px 0 rgb(0, 0, 0 / 23%);
+    width: 100%;
+    height: 36px;
+    max-width: 564px;
+    position: relative;
+}
+.searchbar {
+    width: 100%;
+}
+.sbform ._searcol {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 2px;
+    height: 100%;
+}
+
+.searchcol {
+    width: 100%;
+    height: 100%;
+}
+.sbform ._searcol .searchtext {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.sbform ._searcol .searchtext1 {
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+}
+.nav1 .foruserandseller .login1{
+    align-items: center;
+    min-width: 112px;
+}
+.nav1 .foruserandseller {
+    display: flex;
+    flex: 0 0 auto;
+    margin: 0 20px;
+    max-width: 150px;
+    justify-content: flex-end;
+}
+.login2 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    user-select: none;
+}
+.logi {
+    display: inline-block;
+    position: relative;
+}
+.login3 {
+    cursor: pointer;
+}
+.loginlink {
+    color: #FF4E00;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+.sellerpage {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+.cartpage {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+.useraccount {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-size: 20px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+.productbanner {
+    background-color: white;
+    min-height: 112px;
+    color: black;
+    z-index: 6;
+    width: 100%;
+}
+.proban1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0, 0, 0 / 16%);
+}
+.proban2 {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1280px;
+    color: black;
+    width: 100%;
+}
+.category:first-child {
+    padding-left: 22px;
+}
+.category {
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+.category:last-child {
+    padding-left: 24px;
+}
+.cat {
+    margin-bottom: 4px;
+}
+.cat1 {
+    position: relative;
+    margin: 0 auto;
+}
+.ima {
+    position: absolute;
+    inset: 0px;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+.catname {
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+.part {
+    width: 100%;
+    position: relative;
+}
+.rest {
+    margin: 0 auto;
+    min-width: 978px;
+    max-width: 1680px;
+    padding: 8px;
+}
+.slide {
+    display: block;
+}
+.slider {
+    max-width: 1680px;
+    overflow: hidden;
+    position: relative;
+}
+.maincontent {
+    height: 700px;
+}
+.l1 {
+    width: 250px;
+    height: 300px;
+    border: 1px solid gray;
+    margin-left: 16px;
+    display: flex;
+    float: left;
+    margin-top: 20px;
+}
+.l2 {
+    width: 100%;
+    height: 200px;
+    margin-top: 0;
+}
+.l2 .limg {
+    margin: auto;
+    opacity: 1;
+    height: 200px;
+    margin-top: 0;
+    display: flex;
+    justify-self: center;
+    border-bottom: #FF4E00 solid ;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+    font-size: large;
+}
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+.con , .num {
+    color: #FF4E00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
